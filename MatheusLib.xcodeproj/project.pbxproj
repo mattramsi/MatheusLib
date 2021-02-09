@@ -11,6 +11,7 @@
 		17ECC09C25D217750007B3AC /* MatheusLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ECC09B25D217750007B3AC /* MatheusLibTests.swift */; };
 		17ECC09E25D217750007B3AC /* MatheusLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 17ECC09025D217750007B3AC /* MatheusLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17ECC0AA25D217A10007B3AC /* SwiftyLab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ECC0A925D217A10007B3AC /* SwiftyLab.swift */; };
+		17ECC0AE25D21C830007B3AC /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 17ECC0AD25D21C830007B3AC /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		17ECC09B25D217750007B3AC /* MatheusLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatheusLibTests.swift; sourceTree = "<group>"; };
 		17ECC09D25D217750007B3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17ECC0A925D217A10007B3AC /* SwiftyLab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLab.swift; sourceTree = "<group>"; };
+		17ECC0AD25D21C830007B3AC /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		17ECC08325D217750007B3AC = {
 			isa = PBXGroup;
 			children = (
+				17ECC0AD25D21C830007B3AC /* .travis.yml */,
 				17ECC08F25D217750007B3AC /* MatheusLib */,
 				17ECC09A25D217750007B3AC /* MatheusLibTests */,
 				17ECC08E25D217750007B3AC /* Products */,
@@ -181,6 +184,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17ECC0AE25D21C830007B3AC /* .travis.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
