@@ -12,6 +12,7 @@
 		17ECC09E25D217750007B3AC /* MatheusLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 17ECC09025D217750007B3AC /* MatheusLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17ECC0AA25D217A10007B3AC /* SwiftyLab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ECC0A925D217A10007B3AC /* SwiftyLab.swift */; };
 		17ECC0AE25D21C830007B3AC /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 17ECC0AD25D21C830007B3AC /* .travis.yml */; };
+		17ECC0B825D21EBA0007B3AC /* .slather.yml in Resources */ = {isa = PBXBuildFile; fileRef = 17ECC0B725D21EBA0007B3AC /* .slather.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		17ECC09D25D217750007B3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17ECC0A925D217A10007B3AC /* SwiftyLab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLab.swift; sourceTree = "<group>"; };
 		17ECC0AD25D21C830007B3AC /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
+		17ECC0B725D21EBA0007B3AC /* .slather.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .slather.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		17ECC08325D217750007B3AC = {
 			isa = PBXGroup;
 			children = (
+				17ECC0B725D21EBA0007B3AC /* .slather.yml */,
 				17ECC0AD25D21C830007B3AC /* .travis.yml */,
 				17ECC08F25D217750007B3AC /* MatheusLib */,
 				17ECC09A25D217750007B3AC /* MatheusLibTests */,
@@ -185,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17ECC0AE25D21C830007B3AC /* .travis.yml in Resources */,
+				17ECC0B825D21EBA0007B3AC /* .slather.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -335,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

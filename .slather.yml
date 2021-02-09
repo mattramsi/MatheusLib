@@ -1,0 +1,6 @@
+coverage_service: cobertura_xml
+xcodeproj: MatheusLib.xcodeproj
+scheme: MatheusLib
+output_directory: reports
+ignore:
+  - MatheusLibTests/*
